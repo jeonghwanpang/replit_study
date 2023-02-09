@@ -14,9 +14,14 @@ print(a)
 #뒤에서 세 번째 원소 출력
 print(a[-3])
 # 두 번째 원소부터 네 번째 원소까지(슬라이싱sli)
-print(a[1 : 4])
+print(a[1:4])
 
 #리스트 초기화 방법 리스트 컴프리헨션 획기적!
 #0부터 9까지의 수 리스트
 array = [i for i in range(10)]
 print(array)
+
+#2차원 리스트 초기화 (세로)4곱하기(가로)3 리스트
+n = 4
+m = 3
+array = [[0] * m for _ in range(n)]
